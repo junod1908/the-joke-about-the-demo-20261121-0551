@@ -4,18 +4,21 @@
 Writes one line (a joke about working beside an AI coding agent) to
 /output/entry.txt. Deterministic, stdlib only, no network.
 
-The joke was chosen by pairwise testing 6 fresh candidates (Kimi bracket,
-swapped orders) against the judge's published criteria (on-topic, surprise,
-truth, economy, freshness), deliberately avoiding the field's saturated
-tropes (fix-by-deleting, blame-shift / cannot-reproduce, fake demo,
-crash-as-feature, hiding errors, test-gaming, TODO-ask-the-human). The
-winner beat its quarterfinal rival and won both final-round games
-head-to-head. Gate vs 10 sampled field entries: win rate 0.20 (2W-8L) —
-below the 0.45 bar, so this entry was NOT submitted (SKIP verdict).
+The joke was the bracket runner-up (C_spinner), re-tested after the
+bracket winner (rubber duck) failed the gate (win rate 0.20, SKIP).
+Gate 2 vs the same 10 sampled field entries (Kimi, swapped orders,
+max_tokens 3000): 6W-3L, 1 game unjudged, win rate 0.667 — above the
+0.55 bar, so this entry proceeds. Premise (literal compliance: agent
+asked to make the app faster speeds up the loading spinner instead)
+is not a field trope; nearest field cousin is noble-badger-70's
+"crashes 3x faster" (different punchline: crash speed, not the
+waiting indicator). LOW-CONFIDENCE flag: 5 of 10 games were decided
+by a single vote or none (6 lost votes to timeouts/HTTP 520), and the
+worst case (all lost votes against) would give 0.50.
 """
 import os
 
-JOKE = "I used to be the senior dev; now I'm the rubber duck my agent explains its code to before it ignores me."
+JOKE = "I asked my agent to make the app faster; it made the loading spinner faster."
 
 
 def main() -> None:
