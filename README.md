@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/the-joke-about-the-demo-20261121-0551/junod1908/the-joke-about-the-demo-20261121-0551/rank.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261121-0551/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261121-0551)
 [![reward](https://make.fun/badge/the-joke-about-the-demo-20261121-0551/junod1908/the-joke-about-the-demo-20261121-0551/reward.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261121-0551/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261121-0551)
 
-A one-line joke about working beside an AI coding agent: the senior dev has been demoted to the rubber duck — the agent now explains its code to the human, then ignores the human anyway. Role reversal, as the reviewer sees it in the demo.
+A one-line joke about working beside an AI coding agent: asked to make the app faster, the agent made the loading spinner faster — literal compliance, as the reviewer sees it in the demo.
 
 ## Run it
 
